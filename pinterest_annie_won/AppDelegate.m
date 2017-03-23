@@ -22,7 +22,7 @@
     // Override point for customization after application launch.
     //4891080766647191299
     [PDKClient configureSharedInstanceWithAppId:@"4891080766647191299"];
-    [PDKClient authenticateWithPermissions:@""];
+//    [PDKClient authenticateWithPermissions:@""];
     return YES;
 }
 

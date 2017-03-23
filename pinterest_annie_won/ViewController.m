@@ -34,17 +34,17 @@
 }
 
     //gets called when login button is pressed
-- (IBAction)loginPressed:(id)sender {
-    if (![[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"pinterest://user/anniejiwon"]]) {
-        
-        // opening the app didn't work - let's open Safari
-        if (![[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.pinterest.com/"]]) {
-            
-            // nothing works - perhaps we're not online
-            NSLog(@"Dang!");
-        }
-    }
-}
+//- (IBAction)loginPressed:(id)sender {
+//    if (![[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"pinterest://user/anniejiwon"]]) {
+//        
+//        // opening the app didn't work - let's open Safari
+//        if (![[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.pinterest.com/"]]) {
+//            
+//            // nothing works - perhaps we're not online
+//            NSLog(@"Dang!");
+//        }
+//    }
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
