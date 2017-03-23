@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C80FFA952C51BEE242C2378 /* libPods-pinterest_annie_won.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 485B7318DA8F94AF07DDB502 /* libPods-pinterest_annie_won.a */; };
+		79B46A3E1E83522C00FB3CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B46A3D1E83522C00FB3CB2 /* main.m */; };
+		79B46A411E83522C00FB3CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B46A401E83522C00FB3CB2 /* AppDelegate.m */; };
+		79B46A441E83522C00FB3CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B46A431E83522C00FB3CB2 /* ViewController.m */; };
+		79B46A471E83522C00FB3CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B46A451E83522C00FB3CB2 /* Main.storyboard */; };
+		79B46A491E83522C00FB3CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B46A481E83522C00FB3CB2 /* Assets.xcassets */; };
+		79B46A4C1E83522C00FB3CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B46A4A1E83522C00FB3CB2 /* LaunchScreen.storyboard */; };
+		79B46A571E83522C00FB3CB2 /* pinterest_annie_wonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B46A561E83522C00FB3CB2 /* pinterest_annie_wonTests.m */; };
+		79B46A621E83522C00FB3CB2 /* pinterest_annie_wonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B46A611E83522C00FB3CB2 /* pinterest_annie_wonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79B46A531E83522C00FB3CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79B46A311E83522B00FB3CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B46A381E83522B00FB3CB2;
+			remoteInfo = pinterest_annie_won;
+		};
+		79B46A5E1E83522C00FB3CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79B46A311E83522B00FB3CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B46A381E83522B00FB3CB2;
+			remoteInfo = pinterest_annie_won;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08446A899643739AB54576AF /* Pods_pinterest_annie_wonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinterest_annie_wonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FB444D2C391C0024FB746E /* Pods-pinterest_annie_won.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinterest_annie_won.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinterest_annie_won/Pods-pinterest_annie_won.debug.xcconfig"; sourceTree = "<group>"; };
+		2C582BCD3F5C60C74763A302 /* Pods_pinterest_annie_wonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinterest_annie_wonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		485B7318DA8F94AF07DDB502 /* libPods-pinterest_annie_won.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pinterest_annie_won.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B46A391E83522C00FB3CB2 /* pinterest_annie_won.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterest_annie_won.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B46A3D1E83522C00FB3CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79B46A3F1E83522C00FB3CB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79B46A401E83522C00FB3CB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79B46A421E83522C00FB3CB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79B46A431E83522C00FB3CB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79B46A461E83522C00FB3CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79B46A481E83522C00FB3CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79B46A4B1E83522C00FB3CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79B46A4D1E83522C00FB3CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B46A521E83522C00FB3CB2 /* pinterest_annie_wonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterest_annie_wonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B46A561E83522C00FB3CB2 /* pinterest_annie_wonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinterest_annie_wonTests.m; sourceTree = "<group>"; };
+		79B46A581E83522C00FB3CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B46A5D1E83522C00FB3CB2 /* pinterest_annie_wonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterest_annie_wonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B46A611E83522C00FB3CB2 /* pinterest_annie_wonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinterest_annie_wonUITests.m; sourceTree = "<group>"; };
+		79B46A631E83522C00FB3CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE2B96C5E51CAC1D9C798BA /* Pods-pinterest_annie_won.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinterest_annie_won.release.xcconfig"; path = "Pods/Target Support Files/Pods-pinterest_annie_won/Pods-pinterest_annie_won.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79B46A361E83522B00FB3CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C80FFA952C51BEE242C2378 /* libPods-pinterest_annie_won.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B46A4F1E83522C00FB3CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B46A5A1E83522C00FB3CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1084BE6CB9AFE246D2679D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C582BCD3F5C60C74763A302 /* Pods_pinterest_annie_wonTests.framework */,
+				08446A899643739AB54576AF /* Pods_pinterest_annie_wonUITests.framework */,
+				485B7318DA8F94AF07DDB502 /* libPods-pinterest_annie_won.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B46A301E83522B00FB3CB2 = {
+			isa = PBXGroup;
+			children = (
+				79B46A3B1E83522C00FB3CB2 /* pinterest_annie_won */,
+				79B46A551E83522C00FB3CB2 /* pinterest_annie_wonTests */,
+				79B46A601E83522C00FB3CB2 /* pinterest_annie_wonUITests */,
+				79B46A3A1E83522C00FB3CB2 /* Products */,
+				AF0966BF77191CFB45726446 /* Pods */,
+				1084BE6CB9AFE246D2679D13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79B46A3A1E83522C00FB3CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B46A391E83522C00FB3CB2 /* pinterest_annie_won.app */,
+				79B46A521E83522C00FB3CB2 /* pinterest_annie_wonTests.xctest */,
+				79B46A5D1E83522C00FB3CB2 /* pinterest_annie_wonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79B46A3B1E83522C00FB3CB2 /* pinterest_annie_won */ = {
+			isa = PBXGroup;
+			children = (
+				79B46A3F1E83522C00FB3CB2 /* AppDelegate.h */,
+				79B46A401E83522C00FB3CB2 /* AppDelegate.m */,
+				79B46A421E83522C00FB3CB2 /* ViewController.h */,
+				79B46A431E83522C00FB3CB2 /* ViewController.m */,
+				79B46A451E83522C00FB3CB2 /* Main.storyboard */,
+				79B46A481E83522C00FB3CB2 /* Assets.xcassets */,
+				79B46A4A1E83522C00FB3CB2 /* LaunchScreen.storyboard */,
+				79B46A4D1E83522C00FB3CB2 /* Info.plist */,
+				79B46A3C1E83522C00FB3CB2 /* Supporting Files */,
+			);
+			path = pinterest_annie_won;
+			sourceTree = "<group>";
+		};
+		79B46A3C1E83522C00FB3CB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79B46A3D1E83522C00FB3CB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79B46A551E83522C00FB3CB2 /* pinterest_annie_wonTests */ = {
+			isa = PBXGroup;
+			children = (
+				79B46A561E83522C00FB3CB2 /* pinterest_annie_wonTests.m */,
+				79B46A581E83522C00FB3CB2 /* Info.plist */,
+			);
+			path = pinterest_annie_wonTests;
+			sourceTree = "<group>";
+		};
+		79B46A601E83522C00FB3CB2 /* pinterest_annie_wonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79B46A611E83522C00FB3CB2 /* pinterest_annie_wonUITests.m */,
+				79B46A631E83522C00FB3CB2 /* Info.plist */,
+			);
+			path = pinterest_annie_wonUITests;
+			sourceTree = "<group>";
+		};
+		AF0966BF77191CFB45726446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19FB444D2C391C0024FB746E /* Pods-pinterest_annie_won.debug.xcconfig */,
+				9DE2B96C5E51CAC1D9C798BA /* Pods-pinterest_annie_won.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79B46A381E83522B00FB3CB2 /* pinterest_annie_won */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B46A661E83522C00FB3CB2 /* Build configuration list for PBXNativeTarget "pinterest_annie_won" */;
+			buildPhases = (
+				FFE14A5D82825913E33B72C1 /* [CP] Check Pods Manifest.lock */,
+				79B46A351E83522B00FB3CB2 /* Sources */,
+				79B46A361E83522B00FB3CB2 /* Frameworks */,
+				79B46A371E83522B00FB3CB2 /* Resources */,
+				69BD4C41EFAE22CF1B23EE26 /* [CP] Embed Pods Frameworks */,
+				8AD01CA294E40D89AED30FD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinterest_annie_won;
+			productName = pinterest_annie_won;
+			productReference = 79B46A391E83522C00FB3CB2 /* pinterest_annie_won.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79B46A511E83522C00FB3CB2 /* pinterest_annie_wonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B46A691E83522C00FB3CB2 /* Build configuration list for PBXNativeTarget "pinterest_annie_wonTests" */;
+			buildPhases = (
+				79B46A4E1E83522C00FB3CB2 /* Sources */,
+				79B46A4F1E83522C00FB3CB2 /* Frameworks */,
+				79B46A501E83522C00FB3CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B46A541E83522C00FB3CB2 /* PBXTargetDependency */,
+			);
+			name = pinterest_annie_wonTests;
+			productName = pinterest_annie_wonTests;
+			productReference = 79B46A521E83522C00FB3CB2 /* pinterest_annie_wonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79B46A5C1E83522C00FB3CB2 /* pinterest_annie_wonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B46A6C1E83522C00FB3CB2 /* Build configuration list for PBXNativeTarget "pinterest_annie_wonUITests" */;
+			buildPhases = (
+				79B46A591E83522C00FB3CB2 /* Sources */,
+				79B46A5A1E83522C00FB3CB2 /* Frameworks */,
+				79B46A5B1E83522C00FB3CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B46A5F1E83522C00FB3CB2 /* PBXTargetDependency */,
+			);
+			name = pinterest_annie_wonUITests;
+			productName = pinterest_annie_wonUITests;
+			productReference = 79B46A5D1E83522C00FB3CB2 /* pinterest_annie_wonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79B46A311E83522B00FB3CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = annie;
+				TargetAttributes = {
+					79B46A381E83522B00FB3CB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JPSGL9L66B;
+						ProvisioningStyle = Automatic;
+					};
+					79B46A511E83522C00FB3CB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79B46A381E83522B00FB3CB2;
+					};
+					79B46A5C1E83522C00FB3CB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79B46A381E83522B00FB3CB2;
+					};
+				};
+			};
+			buildConfigurationList = 79B46A341E83522B00FB3CB2 /* Build configuration list for PBXProject "pinterest_annie_won" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79B46A301E83522B00FB3CB2;
+			productRefGroup = 79B46A3A1E83522C00FB3CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79B46A381E83522B00FB3CB2 /* pinterest_annie_won */,
+				79B46A511E83522C00FB3CB2 /* pinterest_annie_wonTests */,
+				79B46A5C1E83522C00FB3CB2 /* pinterest_annie_wonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79B46A371E83522B00FB3CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B46A4C1E83522C00FB3CB2 /* LaunchScreen.storyboard in Resources */,
+				79B46A491E83522C00FB3CB2 /* Assets.xcassets in Resources */,
+				79B46A471E83522C00FB3CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B46A501E83522C00FB3CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B46A5B1E83522C00FB3CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69BD4C41EFAE22CF1B23EE26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinterest_annie_won/Pods-pinterest_annie_won-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD01CA294E40D89AED30FD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinterest_annie_won/Pods-pinterest_annie_won-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE14A5D82825913E33B72C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79B46A351E83522B00FB3CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B46A441E83522C00FB3CB2 /* ViewController.m in Sources */,
+				79B46A411E83522C00FB3CB2 /* AppDelegate.m in Sources */,
+				79B46A3E1E83522C00FB3CB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B46A4E1E83522C00FB3CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B46A571E83522C00FB3CB2 /* pinterest_annie_wonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B46A591E83522C00FB3CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B46A621E83522C00FB3CB2 /* pinterest_annie_wonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79B46A541E83522C00FB3CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B46A381E83522B00FB3CB2 /* pinterest_annie_won */;
+			targetProxy = 79B46A531E83522C00FB3CB2 /* PBXContainerItemProxy */;
+		};
+		79B46A5F1E83522C00FB3CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B46A381E83522B00FB3CB2 /* pinterest_annie_won */;
+			targetProxy = 79B46A5E1E83522C00FB3CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79B46A451E83522C00FB3CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79B46A461E83522C00FB3CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79B46A4A1E83522C00FB3CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79B46A4B1E83522C00FB3CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79B46A641E83522C00FB3CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79B46A651E83522C00FB3CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79B46A671E83522C00FB3CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FB444D2C391C0024FB746E /* Pods-pinterest_annie_won.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPSGL9L66B;
+				INFOPLIST_FILE = pinterest_annie_won/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annie.pinterest-annie-won";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79B46A681E83522C00FB3CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE2B96C5E51CAC1D9C798BA /* Pods-pinterest_annie_won.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPSGL9L66B;
+				INFOPLIST_FILE = pinterest_annie_won/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annie.pinterest-annie-won";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79B46A6A1E83522C00FB3CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pinterest_annie_wonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annie.pinterest-annie-wonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest_annie_won.app/pinterest_annie_won";
+			};
+			name = Debug;
+		};
+		79B46A6B1E83522C00FB3CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pinterest_annie_wonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annie.pinterest-annie-wonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest_annie_won.app/pinterest_annie_won";
+			};
+			name = Release;
+		};
+		79B46A6D1E83522C00FB3CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pinterest_annie_wonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annie.pinterest-annie-wonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pinterest_annie_won;
+			};
+			name = Debug;
+		};
+		79B46A6E1E83522C00FB3CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pinterest_annie_wonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annie.pinterest-annie-wonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pinterest_annie_won;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B46A341E83522B00FB3CB2 /* Build configuration list for PBXProject "pinterest_annie_won" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B46A641E83522C00FB3CB2 /* Debug */,
+				79B46A651E83522C00FB3CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B46A661E83522C00FB3CB2 /* Build configuration list for PBXNativeTarget "pinterest_annie_won" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B46A671E83522C00FB3CB2 /* Debug */,
+				79B46A681E83522C00FB3CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79B46A691E83522C00FB3CB2 /* Build configuration list for PBXNativeTarget "pinterest_annie_wonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B46A6A1E83522C00FB3CB2 /* Debug */,
+				79B46A6B1E83522C00FB3CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79B46A6C1E83522C00FB3CB2 /* Build configuration list for PBXNativeTarget "pinterest_annie_wonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B46A6D1E83522C00FB3CB2 /* Debug */,
+				79B46A6E1E83522C00FB3CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79B46A311E83522B00FB3CB2 /* Project object */;
+}
